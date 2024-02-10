@@ -1,0 +1,170 @@
+/*
+Theme name: Esigned
+Text Domain: esigned
+Author: Fatima
+*/
+/* .carousel-inner{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(255, 0, 0);
+ 
+}  */
+ #slider_div img{
+    width: 100%;
+    height: 100vh;
+   }
+#slider_div{
+    margin-top: -716px;
+}
+.Custom-slider-section{
+            color: #ffffff;
+}  
+  .slide-content {
+    display: flex;
+    flex-direction: column; /* Adjust to stack items vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Ensure the container takes the full height of the slide */
+    position: relative; /* Set position to relative for absolute positioning inside */
+}
+
+.slide .slide-content h2,
+.slide .slide-content h1,
+.slide .slide-content p,
+.slide .slide-content a {
+    position: absolute;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center the text */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slide .slide-content h2 {
+    text-transform: uppercase;
+    top: 25%; /* Adjust vertical positioning */
+}
+
+.slide .slide-content h1 {
+    text-transform: uppercase;
+    top: 35%; /* Adjust vertical positioning */
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.slide .slide-content p {
+    top: 50%; /* Adjust vertical positioning */
+}
+
+.slide .slide-content a {
+    top: 55%; /* Adjust vertical positioning */
+}
+
+
+.button-box a{
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+    border-radius: 20px 20px 0 20px;
+    margin-top: 35px;
+}
+.button-box a:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+/* Theme Customization */
+.MySection{
+    border: 2px solid rgb(149, 146, 146);
+    border-radius: 10px;
+    background-color: rgb(186, 195, 195);
+    padding: 20px;
+    margin: 20px;
+
+}
+.MySection h1{
+    font-size: 45px;
+    font-weight: 500;
+    
+}
+.custom_label {
+    background-color: #0A4B78;
+    cursor: auto;
+    padding: 1vh; 
+    color: white;
+    border-radius: 20px 20px 0 20px;
+    padding: 8px 18px;
+    font-size: 17px;
+    font-weight: 500;
+    /* margin-bottom: 10px; Adjust this value for equal spacing */
+    display: inline-block;
+}
+.button-primary.custom_label_1{
+    background-color: rgb(16, 107, 31); 
+    padding: 1vh; 
+    color: white;
+    border-radius: 20px 20px 0 20px;
+    padding: 3px 17px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px; 
+    display: inline-block;
+    border-color: none;
+}
+.button-primary.custom_label_1:hover{
+    cursor: pointer;
+    background-color: #0e780ad1;
+}
+
+.custom_input{
+    margin-left: 15px;
+    width:60%;
+    margin-top:20px;  
+    padding:1vh;
+}
+.button.image-upload1,.button.image-upload2,.button.image-upload3,.button.image-upload4,.button.image-upload5,
+.button.image-upload6,.button.image-upload7,.button.image-upload8,.button.image-upload9,.button.image-upload10,
+.button.image-upload11,.button.image-upload12,.button.image-upload13{
+    background-color: rgb(140, 140, 140); 
+    padding: 1vh; 
+    color: white;
+    border-radius: 20px 20px 0 20px;
+    padding: 1px 18px;
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+/* 404 page */
+.error-page{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+}
+.error-page h1,
+.error-page h2,
+.error-page p {
+  margin-bottom: 20px;
+}
+.error-page h1{
+    font-size: 95px;
+}
+.error-page h2{
+    font-size: 60px;
+}
+.error-page p{
+    font-size: 20px;
+}
+/* Page.php format */
+.page-format{
+    text-align: center;
+    margin-top: 20px;
+}
+.page-format h1{
+    font-size: 60px;
+}
+.page-format p{
+    font-size: 20px;
+}
